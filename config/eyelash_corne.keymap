@@ -42,7 +42,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-    };
+    
 
     rgb_encoder: rgb_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -57,6 +57,7 @@
 
         tap-ms = <100>;
     };
+};
 
     keymap {
         compatible = "zmk,keymap";
