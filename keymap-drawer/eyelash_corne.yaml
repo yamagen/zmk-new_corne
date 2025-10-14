@@ -46,9 +46,9 @@ layers:
   - '&td0'
   - NUMBER
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - SYMBOL
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
