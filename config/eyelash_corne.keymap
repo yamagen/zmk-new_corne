@@ -28,12 +28,11 @@
 
 / {
     behaviors {
-
         td0: td0 {
            compatible = "zmk,behavior-tap-dance";
            display-name = "Shift/Caps Lock Tap Dance";
            #binding-cells = <0>;
-           bindings = <&kp LGUI>, <&kp LEFT_SHIFT>;
+           bindings = <&kp LEFT_SHIFT>, <&kp LGUI>;
         };
 };
     
