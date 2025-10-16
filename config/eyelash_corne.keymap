@@ -36,17 +36,11 @@
         };
         td1: td1 {
            compatible = "zmk,behavior-tap-dance";
-           display-name = "Shift/Caps Lock Tap Dance";
+           display-name = "TAB/ESC Tap Dance";
            #binding-cells = <0>;
            bindings = <&kp TAB>, <&kp ESC>;
         };
-        inc_dec_kp: inc_dec_kp {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
-        };
     };
-    
 
     rgb_encoder: rgb_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -76,7 +70,6 @@
 
              sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
 
-           
         };
 
         lower_layer {
