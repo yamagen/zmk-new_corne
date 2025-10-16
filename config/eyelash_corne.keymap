@@ -34,13 +34,18 @@
            #binding-cells = <0>;
            bindings = <&kp LEFT_SHIFT>, <&kp LGUI>;
         };
-        td1 : td1 {
+        td1: td1 {
            compatible = "zmk,behavior-tap-dance";
            display-name = "Shift/Caps Lock Tap Dance";
            #binding-cells = <0>;
            bindings = <&kp TAB>, <&kp ESC>;
         };
-};
+        inc_dec_kp: inc_dec_kp {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
+        };
+    };
     
 
     rgb_encoder: rgb_encoder {
