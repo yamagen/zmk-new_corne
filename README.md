@@ -2,7 +2,7 @@
 
 # Eyelash Peripherals Corne ZMK
 
-**This keyboard is different from [foostan's Corne](https://github.com/foostan/crkbd)
+**This keyboard is different from [foostan's Corne](https://github.com/foostan/crkbd)**
 
 ## Setting up the environment
 
