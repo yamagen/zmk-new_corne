@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - '&td1'
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-caps$$'}
   - A
   - S
   - D
