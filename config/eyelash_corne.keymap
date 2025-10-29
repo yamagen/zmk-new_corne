@@ -45,7 +45,7 @@
            display-name = "TAB/ESC Tap Dance";
            #binding-cells = <0>;
            bindings = <&kp TAB>, <&kp ESC>;
-           tapping-term-ms = <200>;
+           tapping-term-ms = <300>;
         };
     };
 
