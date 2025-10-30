@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - TAB
+  - '&td2'
   - Q
   - W
   - E
@@ -29,7 +29,7 @@ layers:
   - L
   - ;
   - ''''
-  - LGUI
+  - '&td0'
   - Z
   - X
   - C
@@ -42,8 +42,8 @@ layers:
   - ','
   - .
   - /
-  - ESC
-  - '&td0'
+  - LEFT SHIFT
+  - LGUI
   - NUMBER
   - LALT
   - {t: SPACE, h: Fn}
