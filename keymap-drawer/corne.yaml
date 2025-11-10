@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - ESC
+  - '&td1'
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - BSPC
-  - {t: TAB, h: CAPS}
+  - CAPS
   - A
   - S
   - D
