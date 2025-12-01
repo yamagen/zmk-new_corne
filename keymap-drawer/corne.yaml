@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - '&td1'
+  - ESC
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - BSPC
-  - CAPS
+  - {t: TAB, h: CAPS}
   - A
   - S
   - D
@@ -46,8 +46,8 @@ layers:
   - LGUI
   - NUMBER
   - LALT
-  - {t: SPACE, h: Fn}
-  - SYMBOL
+  - {t: SPACE, h: RSFT}
+  - {t: ;, h: SYMBOL}
   - {t: ENTER, h: Fn}
   NUMBER:
   - {t: ▽, type: trans}
@@ -193,6 +193,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
