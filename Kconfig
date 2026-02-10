@@ -1,0 +1,7 @@
+menu "zmk-new_corne"
+
+config ZMK_NEW_CORNE
+    bool "zmk-new corne module"
+    default y
+
+endmenu
