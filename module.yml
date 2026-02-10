@@ -1,4 +1,3 @@
 name: zmk-new_corne
 build:
-  cmake: .
   kconfig: Kconfig
