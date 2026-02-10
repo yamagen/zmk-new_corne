@@ -1,6 +1,4 @@
 ---
-zephyr-version: 3.5.0
-
 include:
   #  - board: eyelash_corne_left
   #    shield: nice_view
